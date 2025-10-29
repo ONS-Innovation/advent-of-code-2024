@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-repo
+  description: "test-repo"
+  tags:
+    - python
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ONS-Innovation/advent-of-code-2024
+spec:
+  type: module
+  lifecycle: experimental
+  owner: "user:default/Holmes-J"
+  system: "system:default/trial-team"
